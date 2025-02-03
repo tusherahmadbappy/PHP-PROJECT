@@ -27,6 +27,9 @@
 .theme-footer{
     background-color: #0066CC;
 }
+.theme-product img:hover{
+    transform: scaleX(-1);
+}
 body {
     font-family: 'Lato', sans-serif;
 }

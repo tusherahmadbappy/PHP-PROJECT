@@ -28,43 +28,48 @@
   </div>
 
   <!--Product Section start-->
-  <section>
+  <section class="my-5">
     <div class="container">
-        <h1 class="mb-5">Top Deals</h1>
-        <div class="row">
+
+        <div class="d-flex">
+            <div class="flex-grow-1"><h2>Top Deals</h2></div>
+            <div><a href="#"class="btn btn-sm theme-green-btn text-light">View All</a></div>
+
+        </div>
+        <div class="row theme-product">
             <div class="col-lg-3">
-                <div class="card my-5">
-                    <img src="{{asset('assets/images/fashion/1.jpg') }}" class="card-img-top" alt="...">
+                <div class="card">
+                    <a href="#"><img src="{{asset('assets/images/fashion/1.jpg') }}" class="card-img-top" alt="..."></a>
                     <div class="card-body">
-                      <h5 class="card-title text-center">T-Shirt</h5>
-                      <h4 class="card-title text-center">Tk 1190.00</h4>
+                      <h6 class="card-title text-center"><a href="#" class="text-dark text-decoration-none">T-Shirt</a></h6>
+                      <h5 class="card-title text-center">Tk 1190.00</h5>
                     </div>
                   </div>
             </div>
             <div class="col-lg-3">
-                <div class="card my-5">
-                    <img src="{{asset('assets/images/Mobile/1.jpg') }}" class="card-img-top" alt="...">
+                <div class="card">
+                    <a href="#"><img src="{{asset('assets/images/Mobile/1.jpg') }}" class="card-img-top" alt="..."></a>
                     <div class="card-body">
-                      <h5 class="card-title text-center">Mobile</h5>
-                      <h4 class="card-title text-center">Tk 50,599.00</h4>
+                      <h6 class="card-title text-center"><a href="#"class="text-dark text-decoration-none">Mobile</a></h6>
+                      <h5 class="card-title text-center">Tk 50,599.00</h5>
                     </div>
                   </div>
             </div>
             <div class="col-lg-3">
-                <div class="card my-5">
+                <div class="card">
                     <img src="{{asset('assets/images/fashion/3.jpg') }}" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title text-center">Lahenga</h5>
-                      <h4 class="card-title text-center">Tk 105190.00</h4>
+                      <h6 class="card-title text-center"><a href="#"class="text-dark text-decoration-none">Lahenga</a></h6>
+                      <h5 class="card-title text-center">Tk 105190.00</h5>
                     </div>
                   </div>
             </div>
             <div class="col-lg-3">
-                <div class="card my-5">
-                    <img src="{{asset('assets/images/fashion/4.jpg') }}" class="card-img-top" alt="...">
+                <div class="card">
+                    <a href="#"><img src="{{asset('assets/images/fashion/4.jpg') }}" class="card-img-top" alt="..."></a>
                     <div class="card-body">
-                      <h5 class="card-title text-center">Bag</h5>
-                      <h4 class="card-title text-center">Tk 5190.00</h4>
+                      <h6 class="card-title text-center"><a href="#"class="text-dark text-decoration-none">Bag</a></h6>
+                      <h5 class="card-title text-center">Tk 5190.00</h5>
                     </div>
                   </div>
             </div>
@@ -72,5 +77,54 @@
     </div>
   </section>
   <!--Product Section end-->
+  <!--Recently View Section start-->
+  <section class="my-5">
+    <div class="container">
 
+        <div class="d-flex">
+            <div class="flex-grow-1"><h2>Recently View</h2></div>
+            <div><a href="#"class="btn btn-sm theme-orange-btn text-light">View All</a></div>
+
+        </div>
+        <div class="row theme-product">
+            <div class="col-lg-3">
+                <div class="card">
+                    <a href="#"><img src="{{asset('assets/images/fashion/1.jpg') }}" class="card-img-top" alt="..."></a>
+                    <div class="card-body">
+                      <h6 class="card-title text-center"><a href="#" class="text-dark text-decoration-none">T-Shirt</a></h6>
+                      <h5 class="card-title text-center">Tk 1190.00</h5>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card">
+                    <a href="#"><img src="{{asset('assets/images/Mobile/1.jpg') }}" class="card-img-top" alt="..."></a>
+                    <div class="card-body">
+                      <h6 class="card-title text-center"><a href="#"class="text-dark text-decoration-none">Mobile</a></h6>
+                      <h5 class="card-title text-center">Tk 50,599.00</h5>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card">
+                    <img src="{{asset('assets/images/fashion/3.jpg') }}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h6 class="card-title text-center"><a href="#"class="text-dark text-decoration-none">Lahenga</a></h6>
+                      <h5 class="card-title text-center">Tk 105190.00</h5>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card">
+                    <a href="#"><img src="{{asset('assets/images/fashion/4.jpg') }}" class="card-img-top" alt="..."></a>
+                    <div class="card-body">
+                      <h6 class="card-title text-center"><a href="#"class="text-dark text-decoration-none">Bag</a></h6>
+                      <h5 class="card-title text-center">Tk 5190.00</h5>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+  </section>
+  <!--Recently View Section end-->
 @endsection
